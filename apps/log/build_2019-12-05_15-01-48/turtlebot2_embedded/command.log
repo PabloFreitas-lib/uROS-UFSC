@@ -1,0 +1,4 @@
+Invoking command in '/home/pablo/uros_ws/firmware/apps/build/turtlebot2_embedded': /usr/bin/cmake /home/pablo/uros_ws/firmware/apps/examples/kobuki -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pablo/uros_ws/firmware/apps/install/turtlebot2_embedded
+Invoked command in '/home/pablo/uros_ws/firmware/apps/build/turtlebot2_embedded' returned '0': /usr/bin/cmake /home/pablo/uros_ws/firmware/apps/examples/kobuki -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pablo/uros_ws/firmware/apps/install/turtlebot2_embedded
+Invoking command in '/home/pablo/uros_ws/firmware/apps/build/turtlebot2_embedded': /usr/bin/cmake --build /home/pablo/uros_ws/firmware/apps/build/turtlebot2_embedded --target clean -- -j4 -l4
+Invoked command in '/home/pablo/uros_ws/firmware/apps/build/turtlebot2_embedded' returned '2': /usr/bin/cmake --build /home/pablo/uros_ws/firmware/apps/build/turtlebot2_embedded --target clean -- -j4 -l4

@@ -1,0 +1,30 @@
+#
+# For a description of the syntax of this configuration file,
+# see the file kconfig-language.txt in the NuttX tools repository.
+#
+
+config EXAMPLES_TELEMETRY
+	bool "Performance Telemetry App example"
+	default n
+	---help---
+		With this app you can see an example ussage of different tools to control the MCU.
+
+if EXAMPLES_TELEMETRY
+
+config EXAMPLES_TELEMETRY_PROGNAME
+	string "Program name"
+	default "telemetry"
+	depends on BUILD_KERNEL
+	---help---
+		This is the name of the program that will be use when the NSH ELF
+		program is installed.
+
+config EXAMPLES_TELEMETRY_PRIORITY
+	int "Telemetry task priority"
+	default 100
+
+config EXAMPLES_TELEMETRY_STACKSIZE
+	int "Telemetry stack size"
+	default 2048
+
+endif

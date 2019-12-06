@@ -1,0 +1,8 @@
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+
+make[4]: *** No rule to make target 'clean'.  Stop.
+make[3]: *** [clean] Error 2

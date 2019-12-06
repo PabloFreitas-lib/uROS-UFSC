@@ -1,0 +1,2 @@
+/home/pablo/uros_ws/firmware/apps/build/turtlebot2_embedded/CMakeFiles/rebuild_cache.dir
+/home/pablo/uros_ws/firmware/apps/build/turtlebot2_embedded/CMakeFiles/edit_cache.dir
